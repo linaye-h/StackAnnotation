@@ -41,6 +41,10 @@ public class MyStringStack {
 
         //return v.lastElement();
     }
+	MyStringStack stack = new MyStringStack();
+	stack.push (s1);
+	assertTrue (stack.isEmpty());
+	
     public boolean isEmpty() {
         return v.isEmpty();
     }
@@ -48,7 +52,3 @@ public class MyStringStack {
         v = new Vector<String> ();
     }
 }
-
-MyStringStack stack = new MyStringStack();
-stack.push (s1);
-assertTrue (stack.isEmpty());
