@@ -48,3 +48,7 @@ public class MyStringStack {
         v = new Vector<String> ();
     }
 }
+
+MyStringStack stack = new MyStringStack();
+stack.push (s1);
+assertTrue (stack.isEmpty());
